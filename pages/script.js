@@ -2,9 +2,9 @@
 
 // const asset = require("../pages/index.js");
 
-import { getAsset } from "../pages/index.js";
+import { getAsset } from "./index.js";
 
-const result = await getAsset("BBAS4");
+const result = await getAsset("BBAS3");
 
 // const result = asset.getAsset("BBAS4");
 console.log(result);
